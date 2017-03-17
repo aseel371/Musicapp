@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.0_c389d3dffed3b88073639056df810153d6ce5e88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.0_34d05b44a68b0841102189895a0f81348aa89d6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/exploded-aar/com.github.iammert/InteractivePlayerView/f4f6490290/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="22aae46c8ae30d60e0cff9375aa22f3d9e18c9dd">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.iammert-InteractivePlayerView-f4f6490290_9e3706eda851e7c559e9e849598926886634a83f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.0_23f3154f1521cdf83985feb9f2613719f96600e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_d90d6626ba93b699008cbbd949c2211a11c8808b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.0_f23999430bcea46e496b69809b2579948317746d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="ade8e849637dd689d7cbf82fac929da2adc7a85a">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2e0712665c9c3edff03d8c3649bef194eb07e25d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.0_3a4d8531156a15618f28a5eca4c5735816876f2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.0_c10627f9e49c540e908ad4345d18de9762294d3d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fa7724b385ba45574b5a48aa7f8a8acae8b13c01">
+        <dex dex="/Users/sas/Desktop/AndroidMusicPlayer/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c13acbca0e62dc968deffbea2c01b9019fd79452/classes.dex" />
+    </item>
+
+</items>
