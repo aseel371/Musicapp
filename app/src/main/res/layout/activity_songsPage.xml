@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.viralandroid.androidmusicplayer.SongsPage">
+    <RelativeLayout
+        android:id="@+id/latestAddedSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:background="#262626"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/latestAddedSongTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Latest Added"
+            android:textColor="#EEEEEE"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1.5dp"
+            android:layout_below="@+id/latestAddedSongTitle"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="#80fafafa" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view1">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <LinearLayout
+                    android:id="@+id/music1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/one_direction"
+                        android:id="@+id/imageOneDirection"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:textColor="#ddd"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:text="Drag Me Down - One Direction"
+                            android:id="@+id/oneDirection" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:text="One Direction. 4:24"
+                            android:id="@+id/oneDirection4"
+                            android:textColor="#ddd"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/music1"
+                    android:layout_marginTop="10dp"
+                    android:background="#20ffffff" />
+
+                <LinearLayout
+                    android:id="@+id/music2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line1"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/model_female"
+                        android:id="@+id/imageSameOld" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:lines="1"
+                            android:text="Same Old Love - Selena Gomez"
+                            android:textColor="#ddd"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:text="Selena Gomez . 4:24"
+                            android:textColor="#ddd"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/music3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line2"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/music3"
+                    android:layout_marginTop="10dp"
+                    android:background="#20ffffff" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
