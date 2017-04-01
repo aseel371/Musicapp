@@ -14,7 +14,7 @@ public class SongsPage extends AppCompatActivity implements OnActionClickedListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_songsPage);
+        setContentView(R.layout.activity_songspage);
 
         TextView textView=(TextView)findViewById(R.id.oneDirection);
         ImageView imageView1 = (ImageView) findViewById(R.id.imageOneDirection);

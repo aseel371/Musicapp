@@ -92,4 +92,12 @@
             android:background="@drawable/ic_action_play" />
 
     </RelativeLayout>
+
+    <TextView
+        android:text="Current Playing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView" />
 </RelativeLayout>
