@@ -157,6 +157,18 @@
                     android:background="#20ffffff" />
             </RelativeLayout>
         </ScrollView>
+
+        <TextView
+            android:text="Songs Page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/latestAddedSongTitle"
+            android:layout_alignRight="@+id/view1"
+            android:layout_alignEnd="@+id/view1"
+            android:layout_marginRight="31dp"
+            android:layout_marginEnd="31dp"
+            android:id="@+id/songs"
+            android:textColor="@android:color/background_light" />
     </RelativeLayout>
 
 </RelativeLayout>

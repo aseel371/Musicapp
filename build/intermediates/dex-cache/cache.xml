@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/sas/Desktop/Musicapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="561f0786e22dcd403510fc8adef1c9b032ac0066">
+        <dex dex="/Users/sas/Desktop/Musicapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9d8a69a26f534135f2284baf3087a7ea0b43b20e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/sas/Desktop/Musicapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
         jumboMode="true"
         optimize="true"
@@ -57,15 +66,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/sas/Desktop/Musicapp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="22.0.1"
-        sha1="561f0786e22dcd403510fc8adef1c9b032ac0066">
-        <dex dex="/Users/sas/Desktop/Musicapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9d8a69a26f534135f2284baf3087a7ea0b43b20e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/sas/Desktop/Musicapp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="8d10f0778dd425e4d66c65307d7161a6794e65ec">
+        sha1="0787006d0a39ccf6b11762d34b42fff5ddc23ae8">
         <dex dex="/Users/sas/Desktop/Musicapp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9cf5d7511e520124a38b438fb175405689e9b36e/classes.dex" />
     </item>
     <item
